@@ -1,0 +1,9 @@
+created: 20221013013131127
+modified: 20221013022838931
+tags: $:/tags/SideBar
+title: Locator view
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" default="" text={{{ [prefix[$:/state/popup/search-dropdown]] }}}>
+  <<locator-view baseTitle:"TableOfContents">>
+</$reveal>
